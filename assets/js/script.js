@@ -1,29 +1,4 @@
-/* $(function(){
-	$('.cards').on('click','.card',function (){
-			$(this).toggleClass('card--open');
-		})
-	$('.cards').on('click','.card__like',function(e){
-			e.stopPropagation();
-			e.preventDefault();
-			$(this).toggleClass('card__like--red');
-		})
-	$('.cards').on('click','.card__follow', function(e){
-			e.stopPropagation();
-			$(this).toggleClass('card__follow-btn--following');
-		})
-	$('#image').on('change',function(e){
-			var src='assets/images/squared/' + $(this).val()
-			$('.create__image').children()
-				.attr('src',src);
-		})
-	$('#author').on('change',function(e){
-			var src='assets/images/profiles/' + $(this).val()
-			$('.create__profile').children()
-				.attr('src',src);
-		})
-	})
-	 
-	*/
+
 $(function(){
 	$('#author').on('change',function(e){
 			var src='assets/images/usuarios/' + $(this).val()
