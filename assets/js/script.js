@@ -66,7 +66,13 @@ $(function(){
 	$('#board').on('click','.likes',function(e){
 			e.stopPropagation();
 			e.preventDefault();
-			$(this).toggleClass('likes--red');
+			$(this).children().toggleClass('likes--red');
+	})
+
+	$('#board').on('click','.likes',function(e){
+			e.stopPropagation();
+			e.preventDefault();
+			$(this).children().toggleClass('likes--red');
 	})
 
 
