@@ -42,9 +42,11 @@ $(function(){
 			e.stopPropagation();
 			e.preventDefault();
 			$(this).children().addClass('likes--red');
-			var counter = $(this).children(".counter").text()
-    		var	counter = parseInt(counter);
-  						  $(".counter").text(counter + 1) 
+			var nino= $(this).children(".counter");
+			var counter = nino.text();
+			var total = parseInt(counter)
+
+			nino.text(total + 1); 
 
 	})
     
